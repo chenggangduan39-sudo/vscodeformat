@@ -1,0 +1,32 @@
+---
+Language: Cpp
+BasedOnStyle: Microsoft
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterStruct: true
+  AfterClass: true
+  AfterNamespace: true
+  AfterUnion: true
+  BeforeLambdaBody: false
+
+AllowShortEnumsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortLambdasOnASingleLine: None
+
+LambdaBodyIndentation: Signature
+ContinuationIndentWidth: 8
+PointerAlignment: Left
+ReferenceAlignment: Left
+AlignAfterOpenBracket: Align
+IndentCaseLabels: false
+IndentCaseBlocks: true
+AccessModifierOffset: -4
+...
